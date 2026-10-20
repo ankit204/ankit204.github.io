@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.last_name }}</span>
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -56,6 +56,15 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+<!-- Academic service -->
+<h2>academic service</h2>
+<ul>
+  <li>
+    Reviewer: ICML 2026, NeurIPS 2026, AAAI 2027,
+    TMLR 2025, Neural Networks 2026, AIME 2025.
+  </li>
+</ul>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -78,3 +87,6 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+
+
