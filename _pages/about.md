@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><i class="fa-solid fa-location-dot fa-fw"></i> Pittsburgh, PA</p>
+    <p><i class="fa-solid fa-building-columns fa-fw"></i> University of Pittsburgh</p>
+    <p><i class="fa-solid fa-envelope fa-fw"></i> <a href="mailto:ahjoshi@pitt.edu">Email</a></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in the [Department of Computer Science at the University of Pittsburgh](https://www.cs.pitt.edu/), advised by [Dr. Milos Hauskrecht](https://people.cs.pitt.edu/~milos/). My research focuses on neural models for time series forecasting and temporal point processes, with an emphasis on irregularly sampled multivariate data. I also apply these methods to predict future blood pressure in intensive care patients, working closely with [Dr. Gilles Clermont](https://www.ccm.pitt.edu/people/gilles-clermont-md-msc) and [Dr. Joo Heung Yoon](https://people.dom.pitt.edu/people/joo-heung-yoon-md). I am fortunate to have [Dr. Milos Hauskrecht](https://people.cs.pitt.edu/~milos/), [Dr. Adriana Kovashka](https://people.cs.pitt.edu/~kovashka/), [Dr. Xiaowei Jia](https://sites.pitt.edu/~xiaowei/), and [Dr. Geoffrey J. Gordon](https://www.cs.cmu.edu/~ggordon/) on my doctoral committee.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining the Ph.D. program, I was a Machine Learning Scientist at [Cerebellum Capital](https://www.linkedin.com/company/cerebellum-capital-inc/), a San Francisco-based hedge fund, where I worked closely with [Dr. David Andre](https://davidandre.com/) and [Dr. Lisa Borland](https://www.researchgate.net/profile/Lisa-Borland). Previously, I was a Research Programmer at [Infocusp Innovations](https://www.infocusp.com/). I hold an M.S. in Information Science from the [University of Pittsburgh](https://www.pitt.edu/) and a B.E. in Information Technology from [L.D. College of Engineering](https://ldce.ac.in/).
